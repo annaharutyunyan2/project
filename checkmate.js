@@ -39,16 +39,5 @@ const addChessPieces = function(){
       array[place.x][place.y] = 4;
     }
   }
-  const draw = function(){
-    background(0);
-    let w = 100;
-    for(let i=0; i < array[0].length; i++){
-      for(let j=0; j < array[0].length; j++){
-        noFill();
-        strokeWeight(2);
-        stroke(0);
-        rect(i*w, j*w, w, w);
-      }
-    }
-  }
+ 
 }
